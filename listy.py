@@ -39,7 +39,7 @@ def sumsa(dane):
 
 sumsa(newEngland)
 """
-
+"""
 numlis = [65, 44, 3, 56, 48, 74, 7, 97, 95, 42]  # test on this list
 numlis2 = [4,6,8,12,2,7,19]     # test on a second list to be sur
 
@@ -59,3 +59,6 @@ def srednia(dane):
 
 
 srednia(numlis2)
+
+"""
+
