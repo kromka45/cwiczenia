@@ -3,10 +3,10 @@
 print(random.randint(3,8))
 
  """
-verbs=["goes","cooks","shoots","faints","chews","screams"]
+''' verbs=["goes","cooks","shoots","faints","chews","screams"]
 nouns=["bear","lion","mother","baby","sister","car","bicycle","book"]
 adverbs=["handily","sweetly","sourly","gingerly","forcefully","meekly"]
-articles=["a","the","that","this"]
+articles=["a","the","that","this"] '''
 
 
 
@@ -29,9 +29,8 @@ def zdanie():
 zdanie()
  '''
 
-import random
 
-def poemat():
+''' def poemat():
     for k in range(0,4):
 
         przyimek =random.choice(articles)
@@ -47,6 +46,27 @@ def poemat():
 
 
 poemat()
+ '''
 
 
 
+
+import warnings
+
+
+def funkcja():
+    tablica=[]
+    while True:
+
+        
+        z=str(input("wprowadz"))
+       
+        if z=="cip":
+            print(warnings.WarningMessage)
+            
+            break
+        tablica.append(z)
+        
+
+    print(tablica)
+funkcja()
